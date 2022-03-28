@@ -1,0 +1,83 @@
+Design Pattern notes
+
+Creational Design Patterns
+
+- Prototype is a creational design pattern that allows cloning objects, even complex ones,
+  without coupling to their specific classes.
+ 
+- Abstract Factory is a creational design pattern, which solves the problem of creating
+  entire product families without specifying their concrete classes.
+
+- Factory method design pattern defines an interface for creating an object,
+  but let subclasses decide which class to instantiate.
+
+- The main difference between factory pattern and abstract factory pattern is that the factory pattern
+  provides a method of creating objects without specifying the exact class used to create it
+  while the abstract factory pattern provides a method to combine a group of individual factories
+  without specifying their concrete classes.
+
+- A singleton class is a class that can have only one object
+  (an instance of the class) at a time per JVM instance
+
+- Builder is a creational design pattern,
+  which allows constructing complex objects step by step.
+ 
+Structural Design Patterns
+
+- The adapter pattern convert the interface of a class into another interface
+  clients expect. Adapter lets classes work together that couldn’t otherwise because
+  of incompatible interfaces.
+
+- The official definition for the Bridge design pattern introduced by Gang of Four (GoF)
+  is to decouple an abstraction from its implementation so that the two can vary independently.
+
+- Composite allows composing objects into a tree-like structure and
+  work with it as if it was a singular object.
+
+- Flyweight pattern is used when we need to create a large number of similar objects.
+  The flyweight pattern is based on a factory which recycles created objects
+  by storing them after creation.
+
+- Flyweight is when you have many different kinds of a single thing.
+  Singleton is when you have a single thing.
+
+- The decorator design pattern allows us to dynamically add functionality and
+  behavior to an object without affecting the behavior of other existing objects
+  within the same class.
+
+- Facade encapsulates a complex subsystem behind a simple interface.
+  It hides much of the complexity and makes the subsystem easy to use.
+
+- The purpose of the Proxy is to add behavior.
+
+- The proxy pattern is also quite similar to the Adapter and Decorator,
+  but its purpose is to control access of objects.
+
+- Decorator Pattern focuses on dynamically adding functions to an object,
+  while Proxy Pattern focuses on controlling access to an object.
+
+Behaviour Design Patterns
+
+- Observer allows some objects to notify other objects about changes in their state.
+
+- Chain of Responsibility allows passing request along the chain of potential handlers
+  until one of them handles request.
+
+- The command pattern is used to encapsulate actions which allow you to program undoable actions,
+  task queue's etc.. Facade is used to hide internal structure and provided a simplified interface.
+
+- Essentially, the strategy pattern allows us to change the behavior of an algorithm at runtime.
+
+- Template Method lets subclasses redefine certain steps of an algorithm without changing
+  the algorithm's structure.
+
+- Memento pattern is aimed at using for "undo"ing actions (may be a set of actions/tasks/commands
+  happened in a series). Command pattern is aimed to decouple the tasks from the client
+  besides providing a facility to undo an action (preferably last action).
+
+- Mediator defines simplified communication between classes. Get lower dependency between components
+  cuz of mediator.
+
+- State allows an object to change the behavior when its internal state changes.
+
+

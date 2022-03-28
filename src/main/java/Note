@@ -1,0 +1,21 @@
+Singleton
+- One object for one class
+
+Composition & Aggregation(Strong Composition)
+- Composition example
+  Email may need subject and attachment. But it is ok without them. (Not strongly need)
+
+- Aggregation example
+  Car need an engine.(got dependency) Car is nth without engine. 
+
+  Association --> coupling etc.
+  example. Teacher teach student. 
+  
+  Cohesion
+- class is designed with a single
+- if class is less dependency --> strong cohesion
+- strong cohesion --> better testability
+
+Delegation
+- a method that totally can work for other method
+
